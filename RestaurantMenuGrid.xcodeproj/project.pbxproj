@@ -1,0 +1,701 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B0C93CE625D57A2800319AAB /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C93CE525D57A2800319AAB /* Tests_iOS.swift */; };
+		B0C93CF125D57A2800319AAB /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C93CF025D57A2800319AAB /* Tests_macOS.swift */; };
+		B0C93CF325D57A2800319AAB /* RestaurantMenuGridApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C93CCA25D57A2700319AAB /* RestaurantMenuGridApp.swift */; };
+		B0C93CF425D57A2800319AAB /* RestaurantMenuGridApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C93CCA25D57A2700319AAB /* RestaurantMenuGridApp.swift */; };
+		B0C93CF525D57A2800319AAB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C93CCB25D57A2700319AAB /* ContentView.swift */; };
+		B0C93CF625D57A2800319AAB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C93CCB25D57A2700319AAB /* ContentView.swift */; };
+		B0C93CF725D57A2800319AAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0C93CCC25D57A2800319AAB /* Assets.xcassets */; };
+		B0C93CF825D57A2800319AAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0C93CCC25D57A2800319AAB /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B0C93CE225D57A2800319AAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B0C93CC525D57A2700319AAB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0C93CD025D57A2800319AAB;
+			remoteInfo = "RestaurantMenuGrid (iOS)";
+		};
+		B0C93CED25D57A2800319AAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B0C93CC525D57A2700319AAB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0C93CD825D57A2800319AAB;
+			remoteInfo = "RestaurantMenuGrid (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B0C93CCA25D57A2700319AAB /* RestaurantMenuGridApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantMenuGridApp.swift; sourceTree = "<group>"; };
+		B0C93CCB25D57A2700319AAB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B0C93CCC25D57A2800319AAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B0C93CD125D57A2800319AAB /* RestaurantMenuGrid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RestaurantMenuGrid.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0C93CD425D57A2800319AAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0C93CD925D57A2800319AAB /* RestaurantMenuGrid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RestaurantMenuGrid.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0C93CDB25D57A2800319AAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0C93CDC25D57A2800319AAB /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		B0C93CE125D57A2800319AAB /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0C93CE525D57A2800319AAB /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		B0C93CE725D57A2800319AAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0C93CEC25D57A2800319AAB /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0C93CF025D57A2800319AAB /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		B0C93CF225D57A2800319AAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B0C93CCE25D57A2800319AAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0C93CD625D57A2800319AAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0C93CDE25D57A2800319AAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0C93CE925D57A2800319AAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B0C93CC425D57A2700319AAB = {
+			isa = PBXGroup;
+			children = (
+				B0C93CC925D57A2700319AAB /* Shared */,
+				B0C93CD325D57A2800319AAB /* iOS */,
+				B0C93CDA25D57A2800319AAB /* macOS */,
+				B0C93CE425D57A2800319AAB /* Tests iOS */,
+				B0C93CEF25D57A2800319AAB /* Tests macOS */,
+				B0C93CD225D57A2800319AAB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B0C93CC925D57A2700319AAB /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				B0C93CCA25D57A2700319AAB /* RestaurantMenuGridApp.swift */,
+				B0C93CCB25D57A2700319AAB /* ContentView.swift */,
+				B0C93CCC25D57A2800319AAB /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		B0C93CD225D57A2800319AAB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B0C93CD125D57A2800319AAB /* RestaurantMenuGrid.app */,
+				B0C93CD925D57A2800319AAB /* RestaurantMenuGrid.app */,
+				B0C93CE125D57A2800319AAB /* Tests iOS.xctest */,
+				B0C93CEC25D57A2800319AAB /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B0C93CD325D57A2800319AAB /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				B0C93CD425D57A2800319AAB /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		B0C93CDA25D57A2800319AAB /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				B0C93CDB25D57A2800319AAB /* Info.plist */,
+				B0C93CDC25D57A2800319AAB /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		B0C93CE425D57A2800319AAB /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				B0C93CE525D57A2800319AAB /* Tests_iOS.swift */,
+				B0C93CE725D57A2800319AAB /* Info.plist */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		B0C93CEF25D57A2800319AAB /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				B0C93CF025D57A2800319AAB /* Tests_macOS.swift */,
+				B0C93CF225D57A2800319AAB /* Info.plist */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B0C93CD025D57A2800319AAB /* RestaurantMenuGrid (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0C93CFB25D57A2800319AAB /* Build configuration list for PBXNativeTarget "RestaurantMenuGrid (iOS)" */;
+			buildPhases = (
+				B0C93CCD25D57A2800319AAB /* Sources */,
+				B0C93CCE25D57A2800319AAB /* Frameworks */,
+				B0C93CCF25D57A2800319AAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RestaurantMenuGrid (iOS)";
+			productName = "RestaurantMenuGrid (iOS)";
+			productReference = B0C93CD125D57A2800319AAB /* RestaurantMenuGrid.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B0C93CD825D57A2800319AAB /* RestaurantMenuGrid (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0C93CFE25D57A2800319AAB /* Build configuration list for PBXNativeTarget "RestaurantMenuGrid (macOS)" */;
+			buildPhases = (
+				B0C93CD525D57A2800319AAB /* Sources */,
+				B0C93CD625D57A2800319AAB /* Frameworks */,
+				B0C93CD725D57A2800319AAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RestaurantMenuGrid (macOS)";
+			productName = "RestaurantMenuGrid (macOS)";
+			productReference = B0C93CD925D57A2800319AAB /* RestaurantMenuGrid.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B0C93CE025D57A2800319AAB /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0C93D0125D57A2800319AAB /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				B0C93CDD25D57A2800319AAB /* Sources */,
+				B0C93CDE25D57A2800319AAB /* Frameworks */,
+				B0C93CDF25D57A2800319AAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B0C93CE325D57A2800319AAB /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = B0C93CE125D57A2800319AAB /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		B0C93CEB25D57A2800319AAB /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0C93D0425D57A2800319AAB /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				B0C93CE825D57A2800319AAB /* Sources */,
+				B0C93CE925D57A2800319AAB /* Frameworks */,
+				B0C93CEA25D57A2800319AAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B0C93CEE25D57A2800319AAB /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = B0C93CEC25D57A2800319AAB /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B0C93CC525D57A2700319AAB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					B0C93CD025D57A2800319AAB = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					B0C93CD825D57A2800319AAB = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					B0C93CE025D57A2800319AAB = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = B0C93CD025D57A2800319AAB;
+					};
+					B0C93CEB25D57A2800319AAB = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = B0C93CD825D57A2800319AAB;
+					};
+				};
+			};
+			buildConfigurationList = B0C93CC825D57A2700319AAB /* Build configuration list for PBXProject "RestaurantMenuGrid" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B0C93CC425D57A2700319AAB;
+			productRefGroup = B0C93CD225D57A2800319AAB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B0C93CD025D57A2800319AAB /* RestaurantMenuGrid (iOS) */,
+				B0C93CD825D57A2800319AAB /* RestaurantMenuGrid (macOS) */,
+				B0C93CE025D57A2800319AAB /* Tests iOS */,
+				B0C93CEB25D57A2800319AAB /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B0C93CCF25D57A2800319AAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0C93CF725D57A2800319AAB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0C93CD725D57A2800319AAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0C93CF825D57A2800319AAB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0C93CDF25D57A2800319AAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0C93CEA25D57A2800319AAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B0C93CCD25D57A2800319AAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0C93CF525D57A2800319AAB /* ContentView.swift in Sources */,
+				B0C93CF325D57A2800319AAB /* RestaurantMenuGridApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0C93CD525D57A2800319AAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0C93CF625D57A2800319AAB /* ContentView.swift in Sources */,
+				B0C93CF425D57A2800319AAB /* RestaurantMenuGridApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0C93CDD25D57A2800319AAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0C93CE625D57A2800319AAB /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0C93CE825D57A2800319AAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0C93CF125D57A2800319AAB /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B0C93CE325D57A2800319AAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B0C93CD025D57A2800319AAB /* RestaurantMenuGrid (iOS) */;
+			targetProxy = B0C93CE225D57A2800319AAB /* PBXContainerItemProxy */;
+		};
+		B0C93CEE25D57A2800319AAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B0C93CD825D57A2800319AAB /* RestaurantMenuGrid (macOS) */;
+			targetProxy = B0C93CED25D57A2800319AAB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B0C93CF925D57A2800319AAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B0C93CFA25D57A2800319AAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		B0C93CFC25D57A2800319AAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LZQV925V42;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.stefania.RestaurantMenuGrid;
+				PRODUCT_NAME = RestaurantMenuGrid;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B0C93CFD25D57A2800319AAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LZQV925V42;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.stefania.RestaurantMenuGrid;
+				PRODUCT_NAME = RestaurantMenuGrid;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B0C93CFF25D57A2800319AAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = LZQV925V42;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stefania.RestaurantMenuGrid;
+				PRODUCT_NAME = RestaurantMenuGrid;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		B0C93D0025D57A2800319AAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = LZQV925V42;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stefania.RestaurantMenuGrid;
+				PRODUCT_NAME = RestaurantMenuGrid;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		B0C93D0225D57A2800319AAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LZQV925V42;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.stefania.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "RestaurantMenuGrid (iOS)";
+			};
+			name = Debug;
+		};
+		B0C93D0325D57A2800319AAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LZQV925V42;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.stefania.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "RestaurantMenuGrid (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B0C93D0525D57A2800319AAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = LZQV925V42;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.stefania.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "RestaurantMenuGrid (macOS)";
+			};
+			name = Debug;
+		};
+		B0C93D0625D57A2800319AAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = LZQV925V42;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.stefania.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "RestaurantMenuGrid (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B0C93CC825D57A2700319AAB /* Build configuration list for PBXProject "RestaurantMenuGrid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0C93CF925D57A2800319AAB /* Debug */,
+				B0C93CFA25D57A2800319AAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0C93CFB25D57A2800319AAB /* Build configuration list for PBXNativeTarget "RestaurantMenuGrid (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0C93CFC25D57A2800319AAB /* Debug */,
+				B0C93CFD25D57A2800319AAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0C93CFE25D57A2800319AAB /* Build configuration list for PBXNativeTarget "RestaurantMenuGrid (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0C93CFF25D57A2800319AAB /* Debug */,
+				B0C93D0025D57A2800319AAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0C93D0125D57A2800319AAB /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0C93D0225D57A2800319AAB /* Debug */,
+				B0C93D0325D57A2800319AAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0C93D0425D57A2800319AAB /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0C93D0525D57A2800319AAB /* Debug */,
+				B0C93D0625D57A2800319AAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B0C93CC525D57A2700319AAB /* Project object */;
+}
